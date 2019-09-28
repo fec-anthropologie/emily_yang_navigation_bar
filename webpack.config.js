@@ -8,6 +8,7 @@ module.exports = {
     path: DIST_DIR,
     filename: 'bundle.js',
   },
+  mode: 'production',
   module: {
     rules: [
       {

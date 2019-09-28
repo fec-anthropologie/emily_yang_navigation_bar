@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost/anthro', { useNewUrlParser: true });
+mongoose.connect('mongodb+srv://emilyyang:skye@anthropologie-zc4az.mongodb.net/anthro?retryWrites=true&w=majority', { useNewUrlParser: true });
 
 const db = mongoose.connection;
 db.on('error', console.error.bind(console, 'connection error:'));

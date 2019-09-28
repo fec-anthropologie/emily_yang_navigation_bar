@@ -1,16 +1,3 @@
-/* * {
-  position: static;
-} */
-/* body {
-  font: 1.3rem/1 "Avenir LT W02 45 Book",sans-serif;
-  color: #5c5c5f;
-  background: #fdfdf9;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  vertical-align: baseline;
-  list-style: none;
-} */
 /**** PromoHeader ****/
 .promo-pre-title {
   vertical-align: middle;
@@ -352,7 +339,7 @@ body {
   left: 0;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 20;
-  background-color: rgba(253,253,249, .97);
+  background-color: rgba(253,253,249, .94);
 }
 
 .dropdown-content .header {
